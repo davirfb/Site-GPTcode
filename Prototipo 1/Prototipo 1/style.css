@@ -1,0 +1,66 @@
+/* Importação da fonte do Google Fonts (opcional) */
+body {
+    font-family: 'Roboto', sans-serif;
+    /* Ajuste para a navegação fixa não cobrir o topo das seções */
+    padding-top: 56px; 
+}
+
+/*
+ * Estilos para a Seção Hero (Início)
+ */
+#inicio {
+    height: 90vh; /* Altura de 90% da tela */
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://via.placeholder.com/1920x1080.png?text=Imagem+de+Fundo+do+Laboratório') no-repeat center center;
+    background-size: cover;
+}
+
+/*
+ * Estilos Gerais das Seções
+ */
+section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+h2 {
+    color: #343a40; /* Cor escura para os títulos */
+    margin-bottom: 3rem;
+    font-weight: 700;
+}
+
+/*
+ * Efeito de Hover nos Cards
+ */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12) !important;
+}
+
+/*
+ * Estilos para a foto da equipe (para ficar redonda)
+ */
+#equipe .card-img-top {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+/*
+ * Footer
+ */
+footer a {
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Ajuste para links da navbar ficarem mais visíveis */
+.navbar-brand, .nav-link {
+    font-weight: 700;
+}
