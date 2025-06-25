@@ -21,6 +21,9 @@ section {
     padding-top: 4rem;
     padding-bottom: 4rem;
 }
+.navbar{
+    background-color: #FFFFFF;
+}
 
 h2 {
     color: #343a40; /* Cor escura para os títulos */
@@ -63,4 +66,5 @@ footer a:hover {
 /* Ajuste para links da navbar ficarem mais visíveis */
 .navbar-brand, .nav-link {
     font-weight: 700;
+    color: #0B183E;
 }
