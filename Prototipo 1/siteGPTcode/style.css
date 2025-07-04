@@ -4,13 +4,19 @@ body {
     /* Ajuste para a navegação fixa não cobrir o topo das seções */
     padding-top: 56px; 
 }
-
+.btn{
+    background-color: #0B183E;
+    color: white;
+}
+.btn:hover{
+    background-color: #EEB831;
+}
 /*
  * Estilos para a Seção Hero (Início)
  */
 #inicio {
     height: 90vh; /* Altura de 90% da tela */
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://via.placeholder.com/1920x1080.png?text=Imagem+de+Fundo+do+Laboratório') no-repeat center center;
+    
     background-size: cover;
 }
 
@@ -22,7 +28,8 @@ section {
     padding-bottom: 4rem;
 }
 .navbar{
-    background-color: #FFFFFF;
+    background-color: #F5F5F5;
+    ;
 }
 
 h2 {
@@ -57,6 +64,9 @@ h2 {
 /*
  * Footer
  */
+footer{
+    background-color: #0B183E;
+}
 footer a {
     text-decoration: none;
 }
@@ -69,3 +79,6 @@ footer a:hover {
     font-weight: 700;
     color: #0B183E;
 }
+.nav-link:hover{
+    color: #EEB831;
+}   
