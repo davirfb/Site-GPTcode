@@ -1,84 +1,84 @@
 /* Importação da fonte do Google Fonts (opcional) */
 body {
-    font-family: 'Roboto', sans-serif;
-    /* Ajuste para a navegação fixa não cobrir o topo das seções */
-    padding-top: 56px; 
+  font-family: "Roboto", sans-serif;
+  /* Ajuste para a navegação fixa não cobrir o topo das seções */
+  padding-top: 56px;
 }
-.btn{
-    background-color: #0B183E;
-    color: white;
+.btn {
+  background-color: #0b183e;
+  color: white;
 }
-.btn:hover{
-    background-color: #EEB831;
+.btn:hover {
+  background-color: #eeb831;
 }
 /*
  * Estilos para a Seção Hero (Início)
  */
 #inicio {
-    height: 90vh; /* Altura de 90% da tela */
-    
-    background-size: cover;
+  height: 90vh; /* Altura de 90% da tela */
+
+  background-size: cover;
 }
 
 /*
  * Estilos Gerais das Seções
  */
 section {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
-.navbar{
-    background-color: #F5F5F5;
-    ;
+.navbar {
+  background-color: #f5f5f5;
 }
 
 h2 {
-    color: #EEB831
-; /* Cor escura para os títulos */
-    margin-bottom: 3rem;
-    font-weight: 700;
+  color: #eeb831; /* Cor escura para os títulos */
+  margin-bottom: 3rem;
+  font-weight: 700;
 }
 
 /*
  * Efeito de Hover nos Cards
  */
 .card {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.12) !important;
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12) !important;
 }
 
 /*
  * Estilos para a foto da equipe (para ficar redonda)
  */
 #equipe .card-img-top {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin: 0 auto;
 }
 
 /*
  * Footer
  */
-footer{
-    background-color: #0B183E;
+footer {
+  background-color: #0b183e;
 }
 footer a {
-    text-decoration: none;
+  text-decoration: none;
 }
 footer a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* Ajuste para links da navbar ficarem mais visíveis */
-.navbar-brand, .nav-link {
-    font-weight: 700;
-    color: #0B183E;
+.navbar-brand,
+.nav-link {
+  font-weight: 700;
+  color: #0b183e;
 }
-.nav-link:hover{
-    color: #EEB831;
-}   
+
+.nav-link:hover {
+  color: #eeb831;
+}
